@@ -152,14 +152,12 @@ export const pharmacyAPI = {
 export const labAPI = {
   // Tests
   getAll: (params) => api.get('/lab/tests', { params }),
-  getTests: (params) => api.get('/lab/tests', { params }),
-  getTestById: (id) => api.get(`/lab/tests/${id}`),
-  createTest: (data) => api.post('/lab/tests', data),
+  getById: (id) => api.get(`/lab/tests/${id}`),
   create: (data) => api.post('/lab/tests', data),
-  updateTest: (id, data) => api.put(`/lab/tests/${id}`, data),
   update: (id, data) => api.put(`/lab/tests/${id}`, data),
-  deleteTest: (id) => api.delete(`/lab/tests/${id}`),
   delete: (id) => api.delete(`/lab/tests/${id}`),
+  updateResult: (id, data) => api.put(`/lab/tests/${id}/result`, data),
+  updateStatus: (id, data) => api.put(`/lab/tests/${id}/status`, data),
   // Orders
   getOrders: (params) => api.get('/lab/orders', { params }),
   getOrderById: (id) => api.get(`/lab/orders/${id}`),

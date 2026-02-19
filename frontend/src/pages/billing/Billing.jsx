@@ -18,7 +18,6 @@ import {
   FiEye,
   FiDollarSign,
   FiPrinter,
-  FiDownload,
   FiTrash2
 } from 'react-icons/fi';
 

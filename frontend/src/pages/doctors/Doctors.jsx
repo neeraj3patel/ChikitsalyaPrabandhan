@@ -20,8 +20,7 @@ import {
   FiEye,
   FiUser,
   FiMail,
-  FiPhone,
-  FiCalendar
+  FiPhone
 } from 'react-icons/fi';
 
 const Doctors = () => {

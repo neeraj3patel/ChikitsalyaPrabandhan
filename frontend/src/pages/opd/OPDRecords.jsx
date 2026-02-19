@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from 'react';
-import { opdAPI, appointmentsAPI, doctorsAPI, patientsAPI } from '../../services/api';
+import { opdAPI, doctorsAPI, patientsAPI } from '../../services/api';
 import DataTable from '../../components/common/DataTable';
 import Modal from '../../components/common/Modal';
 import Input from '../../components/common/Input';
