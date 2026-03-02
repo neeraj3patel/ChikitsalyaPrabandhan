@@ -20,7 +20,9 @@ const {
 const registerValidation = [
   body('name').notEmpty().withMessage('Name is required'),
   body('email').isEmail().withMessage('Please provide a valid email'),
-  body('password').isLength({ min: 6 }).withMessage('Password must be at least 6 characters')
+  body('password').isLength({ min: 6 }).withMessage('Password must be at least 6 characters'),
+  body('dateOfBirth').notEmpty().withMessage('Date of birth is required'),
+  body('gender').notEmpty().withMessage('Gender is required')
 ];
 
 const loginValidation = [
