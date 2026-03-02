@@ -6,8 +6,6 @@ A comprehensive Hospital Management System built with MERN stack (MongoDB, Expre
 
 - **Authentication & Authorization**: JWT-based auth with role-based access control
 - **Patient Management**: Register, view, and manage patient records
-- **Doctor Management**: Doctor profiles, schedules, and appointments
-- **Appointment System**: Book and manage appointments
 - **OPD/IPD Records**: Track outpatient and inpatient records
 - **Bed Management**: Manage hospital beds and ward allocation
 - **Pharmacy**: Medicine inventory management
@@ -18,8 +16,6 @@ A comprehensive Hospital Management System built with MERN stack (MongoDB, Expre
 
 - **Admin**: Full system access
 - **Doctor**: Appointments, OPD, patients
-- **Nurse**: Patient care, beds, IPD
-- **Receptionist**: Appointments, patients
 - **Lab Technician**: Lab tests management
 - **Pharmacist**: Pharmacy inventory
 - **Patient**: View own records
@@ -35,7 +31,7 @@ A comprehensive Hospital Management System built with MERN stack (MongoDB, Expre
 
 ### Prerequisites
 
-- Node.js (v18+)
+ Frontend: https://chikitsalya-prabandhan.vercel.app
 - MongoDB (local or Atlas)
 
 ### Installation
